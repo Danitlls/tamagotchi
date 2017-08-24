@@ -3,16 +3,17 @@ import PropTypes from "prop-types";
 
 
 
-function Sleep(){
-  const increaseSleepMeter = (event) => {
-    alert("THANKS FOR SLEEPING ME!");
-  }
+function Sleep(props){
   return (
     <div>
       <h3>Sleep for TAMAGOTCHIIIIIIIIIIIIIIIIII</h3>
-      <button onClick={increaseSleepMeter}>SLEEP ME NOW</button>
+      <button onClick={props.increaseSleep}>SLEEP ME NOW</button>
     </div>
   );
 }
+
+Sleep.propTypes = {
+  increaseSleep: PropTypes.func
+};
 
 export default Sleep;
