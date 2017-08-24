@@ -11,8 +11,8 @@ class Life extends React.Component{
     return (
       <div>
         <h1>Welcome to LIFE</h1>
-        <Food/>
         <Sleep/>
+        <Food/>
         <Play/>
       </div>
     );
