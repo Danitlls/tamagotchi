@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import PropTypes from "prop-types";
 
 // increaseFoodMeter(){
@@ -7,11 +7,14 @@ import PropTypes from "prop-types";
 
 function Food(){
   return (
-    <div>
-      <h3>Food for TAMAGOTCHIIIIIIIIIIIIIIIIII</h3>
-      <button>FEED ME NOW</button>
-    </div>
+      <div>
+          <h3>Food for TAMAGOTCHIIIIIIIIIIIIIIIIII</h3>
+          <button>FEED ME NOW</button>
+      </div>
   );
 }
+
+Food.propTypes = {
+};
 
 export default Food;

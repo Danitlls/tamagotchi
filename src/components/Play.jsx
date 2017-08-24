@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import PropTypes from "prop-types";
 
 // increasePlayMeter(){
@@ -7,11 +7,15 @@ import PropTypes from "prop-types";
 
 function Play(){
   return (
-    <div>
-      <h3>Play for TAMAGOTCHIIIIIIIIIIIIIIIIII</h3>
-      <button>PLAY ME NOW</button>
-    </div>
+      <div>
+          <h3>Play for TAMAGOTCHIIIIIIIIIIIIIIIIII</h3>
+          <button>PLAY ME NOW</button>
+      </div>
   );
 }
+
+Play.propTypes = {
+  
+};
 
 export default Play;
